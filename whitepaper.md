@@ -140,19 +140,139 @@ Prediction markets transform mathematics from a purely intellectual pursuit into
 
 ---
 
-## 4. Tokenomics
+## 4. Incentive System
 
-### The OpenMath Ecosystem
+### The Astrolabe Ecosystem
+Astrolabe operates its own contribution recognition system — **ASTRO Points** — designed to track, reward, and incentivize all forms of contribution to the project. ASTRO Points functions as an off-chain credit system with a clear pathway to integration with the broader OpenMath ecosystem and CTK token.
 
-Astrolabe connects to the **OpenMath ecosystem**, which uses **CTK** (Shentu Chain's native token) to reward contributions to formal mathematics.
+---
 
-OpenMath implements a Gas-based incentive mechanism that encourages mathematical elegance — simpler, more elegant proofs earn higher rewards. For details on proof bounties and reward mechanisms, see OpenMath's documentation.
+## 4.1 Contribution Categories
 
-### Astrolabe Contributors
+| Category     | Description                                                                 | Reward Mechanism                                                     |
+|-------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Visualizers | Designers, frontend developers, and mathematicians who create interactive visualizations for formal proofs | Points based on complexity, reusability, and community adoption      |
+| Builders    | Core developers who contribute to Astrolabe's codebase, architecture, and infrastructure | Points based on PR size, impact, and code review participation       |
+| Educators   | Contributors who create tutorials, documentation, translations, and educational content | Points based on content quality and reach                            |
+| Growers     | Community organizers, partnership developers, and advocates who expand the ecosystem | Points based on measurable ecosystem impact                           |
+| Reviewers   | Community members who review visualizations, test features, and provide quality feedback | Points based on review volume and constructiveness                   |
 
-Astrolabe is open-source. Early contributors who help build the interface layer — developers, designers, AI engineers — will receive token allocation based on GitHub contribution history.
+---
 
-> **Note**: Specific allocation to be determined in coordination with OpenMath.
+## 4.2 Reward Mechanism
+
+### Visualization Rewards
+Astrolabe implements a quality-based incentive mechanism for visualizations:
+- Visualizations are evaluated based on clarity, interactivity, and educational value
+- First visualization for a theorem earns bonus rewards
+- Reusable components that benefit multiple proofs earn higher rewards
+- Community citations and adoption increase reward multipliers
+
+### Builder Rewards
+Code contributors are rewarded based on:
+- Pull request size and complexity (small / feature / major)
+- Code review participation and quality
+- Bug fixes and issue resolution
+- Architecture and infrastructure improvements
+
+### Education Rewards
+Content creators are rewarded based on:
+- Tutorial and documentation contributions
+- Video content production
+- Translation work (per volume)
+- Community Q&A participation
+
+### Bounty System
+- Core team and community members can post bounties for specific visualizations or features
+- Contributors claim bounties by submitting work that meets acceptance criteria
+- Bounty rewards are distributed upon maintainer approval
+- Future integration: smart contract distribution upon on-chain verification
+
+---
+
+## 4.3 Points Allocation
+
+| Allocation        | Percentage | Distribution               |
+|------------------|------------|----------------------------|
+| Visualizers Pool | 30%        | Ongoing, per contribution  |
+| Builders Pool    | 25%        | Ongoing, per contribution  |
+| Educators Pool   | 20%        | Ongoing, per contribution  |
+| Growers Pool     | 15%        | Ongoing, per contribution  |
+| Reviewers Pool   | 10%        | Ongoing, per contribution  |
+
+**Note:** Allocation percentages represent target distribution across contribution types. Actual distribution depends on community participation.
+
+---
+
+## 4.4 Levels & Recognition
+Contributors progress through levels based on accumulated points:
+
+| Level | Title         | Points  | Recognition                                         |
+|------:|---------------|---------|-----------------------------------------------------|
+| 1     | Explorer      | 0+      | Community access                                    |
+| 2     | Contributor   | 100+    | Private channels, early access to features          |
+| 3     | Builder       | 500+    | Governance participation, quarterly sync invites    |
+| 4     | Architect     | 2,000+  | Product advisory input, partnership referrals       |
+| 5     | Founder Circle| 5,000+  | Core decision participation, priority token allocation |
+
+---
+
+## 4.5 Point Dynamics
+
+### Activity-Based Valuation
+ASTRO Points represent current contribution activity, not just historical records:
+- 30 days inactive: **2%** decay
+- 60 days inactive: **5%** decay
+- 90 days inactive: **10%** decay
+
+### Protections
+- New contributors: **90-day decay protection**
+- Level floor: Points will not decay below current level threshold
+
+---
+
+## 4.6 Transparency & Verification
+All ASTRO Points records are maintained in a public GitHub repository:
+- Every transaction is logged with timestamp, action type, and reference
+- Git commit history provides immutable audit trail
+- Anyone can verify point calculations and totals
+- Weekly snapshots published for community review
+
+---
+
+## 4.7 OpenMath Integration
+ASTRO Points is designed for seamless integration with the OpenMath ecosystem:
+
+### Current State
+- Off-chain point system
+- Public ledger on GitHub
+- Manual + semi-automated tracking
+
+### Integration Pathway
+- Periodic snapshots for on-chain anchoring (Merkle root)
+- Conversion mechanism to CTK based on published formula
+- Governance participation rights through point-weighted voting
+
+### Conversion
+- ASTRO Points → CTK conversion rates determined by OpenMath governance
+- Snapshot timing and eligibility criteria announced in advance
+- Vesting schedules may apply to converted tokens
+
+For detailed tokenomics and CTK distribution mechanisms, see OpenMath documentation.
+
+---
+
+## 4.8 Governance
+ASTRO Points holders participate in Astrolabe-specific governance:
+- Point-weighted voting on visualization standards and feature priorities
+- Proposal rights for Builder level (500+) and above
+- Core decisions reserved for Founder Circle with community input
+- Ecosystem-wide decisions (cross-project, token economics) are governed through OpenMath governance mechanisms.
+
+---
+
+This incentive system is subject to revision as the project evolves. Major changes will be announced through official channels and require community input for significant modifications.
+
 
 ---
 
