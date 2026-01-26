@@ -4,7 +4,7 @@
 
 This is the whitepaper repository for the Astrolabe project.
 
-Astrolabe is an open collaborative framework for everyone to build mathematical interaction tools together. Together with OpenMath, we are building infrastructure to accelerate the fusion of AI and mathematics.
+Astrolabe is an open collaborative framework for everyone to build mathematical interaction tools together. Together with [OpenMath](https://openmath.shentu.org/), we are building infrastructure to accelerate the fusion of AI and mathematics.
 
 ## Links
 
