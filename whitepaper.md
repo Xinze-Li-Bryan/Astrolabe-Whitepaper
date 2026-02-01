@@ -299,9 +299,9 @@ Together, we create a complete ecosystem: **accessible, incentivized, and open t
 
 ## 6. Conclusion
 
-Formal mathematics is accelerating. AI generates proofs faster than humans can read them.
+Formal mathematics is accelerating. AI now generates proofs faster than humans can read them.
 
-Astrolabe creates the interface layer — making machine-verified mathematics explorable, interactive, and understandable.
+Astrolabe provides the interface layer — making machine-verified mathematics explorable, interactive, and understandable.
 
 Join us.
 
